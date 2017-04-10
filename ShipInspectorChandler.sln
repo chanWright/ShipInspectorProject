@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipInspectorChandler", "ShipInspectorChandler.csproj", "{233610A3-948E-7142-046B-16F76DE28577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipInspectorChandler.Editor", "ShipInspectorChandler.Editor.csproj", "{5A7494E5-B6D5-BDC9-57EE-36AB396C2706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233610A3-948E-7142-046B-16F76DE28577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233610A3-948E-7142-046B-16F76DE28577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233610A3-948E-7142-046B-16F76DE28577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233610A3-948E-7142-046B-16F76DE28577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7494E5-B6D5-BDC9-57EE-36AB396C2706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7494E5-B6D5-BDC9-57EE-36AB396C2706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7494E5-B6D5-BDC9-57EE-36AB396C2706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7494E5-B6D5-BDC9-57EE-36AB396C2706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

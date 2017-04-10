@@ -15,7 +15,7 @@ public class ShipInspector : Editor {
 		//basic info on the ship
 		EditorGUILayout.LabelField ("Basic Ship Info:");
 		EditorGUILayout.BeginVertical ("Box");
-		myShip.hitPoints = EditorGUILayout.IntField (new GUIContent("Hit Points", "How much damage can the ship take?"), myShip.hitPoints);
+		myShip.hitPoints = EditorGUILayout.IntField (new GUIContent("Hit Points", "How much damage can the ship take?"), Mathf.Max(0, myShip.hitPoints));
 		EditorGUILayout.IntSlider (new GUIContent("Stat Points Avaliable:", "There are 100 total points, 30 are alwasys being used. NOT ADJUSTABLE"),STAT_POOL - (myShip.agility + myShip.attack + myShip.armor), 30, 100);
 		myShip.armor = EditorGUILayout.IntSlider (new GUIContent("Armor", "How strong is the hull, cannot drop below 10."), myShip.armor, 10, STAT_POOL - (myShip.agility + myShip.attack));
 		myShip.attack = EditorGUILayout.IntSlider (new GUIContent("Attack", "How powerful are the weapons, cannot drop below 10."), myShip.attack, 10, STAT_POOL - (myShip.agility + myShip.armor));
